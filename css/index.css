@@ -1,3 +1,210 @@
 /* Use your own code or past solution for Great Idea Web Page CSS here! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+/* End of the css reset */
+h4 {
+    font-family: Bangers, cursive;
+}
+.container {
+    width: 500px;
+    margin: 0 auto;
+}
+
+header {
+	width: 100%;
+	padding-bottom: 50px;
+    padding-top: 10px;
+    display: flex;
+    flex-flow: column wrap;
+}
+header img {
+    width: 37%;
+    margin: auto;
+    padding: 30px 0px 20px;
+}
+header nav {
+    text-align: center;
+    border-top: 1px solid gray;
+}
+header nav a {
+    display: block;
+    width: 100%;
+    padding: 20px 0;
+    border-bottom: 1px solid gray;
+	color: gray;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: 'Titillium Web'
+}
 
 
+.slogan {
+    display: flex;
+    flex-flow: column wrap;
+	border-bottom: 2px solid gray;
+	text-align: center;
+    padding-bottom: 54px;
+    margin: 0 20px;
+}
+.slogan .motto {
+    align-self: center;
+    font-family: Bangers, cursive;
+    font-size: 73px;
+}
+
+.slogan button {
+    width: 37%;
+    align-self: center;
+    color: gray;
+    font-size: 15px;
+    margin: 22px 20px 20px 20px;
+	padding: 7px 30px;
+	background: transparent;
+	border: 1px gray solid;
+}
+.slogan button:hover {
+	background-color: royalblue;
+	color: white;
+}
+.slogan .code {
+    display: none;
+}
+
+.content {
+	display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    padding: 57px 0px;
+    margin: 0 20px;
+}
+.block1 {
+	width: 100%;
+    padding-bottom: 34px;
+    font-size: 15px;
+}
+.middle-img {
+    width: 100%;
+}
+.block2 {
+	width: 100%;
+    margin-right: 18px;
+    padding: 30px 0px;
+}
+.learn {
+	margin-top: 20px;
+	width: 150px;
+	padding: 10px 20px;
+	border-radius: 5px;
+	border: 1px solid black;
+}
+.facts {
+	border-top: 2px solid black;
+	margin-top: 50px;
+	padding-top: 20px;
+	width: 900px;
+	display: flex;
+}
+.facts_text {
+	width: 425px;
+	margin-right: 25px;
+	padding-right: 10px;
+	line-height: 1.4;
+}
+.facts_text ul {
+	list-style:square inside;
+	padding-top: 20px;
+}
+.services-info-img {
+	padding-left: 25px;
+	padding-top: 25px;
+}
+
+footer {
+	padding-top: 30px;
+	border-top: 1px gray solid;
+	width: 100%;
+}
+footer .contact {
+	width: 100%;
+}
+footer address {
+	padding-bottom: 20px;
+}
+footer .footer_info {
+	padding-bottom: 20px;
+}
+footer .copy {
+	text-align: center;
+	width: 100%;
+    padding-bottom: 100px;
+    padding-top: 50px;
+}
+.services_footer {
+	text-align: center;
+	margin-top: 50px;
+}
