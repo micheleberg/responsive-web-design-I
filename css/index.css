@@ -165,7 +165,7 @@ header nav a {
 }
 
 .slogan button {
-    width: 37%;
+    width: 50%;
     align-self: center;
     color: gray;
     font-size: 15px;
@@ -183,7 +183,7 @@ header nav a {
 }
 @media(min-width: 501px) {
     .slogan button {
-        width: 22%;
+        width: 50%;
     }
 }
 @media(min-width: 801px) {
